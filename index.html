@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benim Portföyüm</title>
+    <style>
+        table, tr, th, td { 
+            border: 2px solid black; border-collapse:collapse;
+        }
+    </style>
 </head>
 <body style="background-color: rgb(185, 146, 221);">
     <h1>Benim Portföyüm</h1>
@@ -30,8 +35,8 @@
     </ul>
 
     <h2 id="Projeler">Projeler</h2>
-    <table style="width:100%; border: 3px solid black" >
-        <tr style="border:3px solid black">
+    <table>
+        <tr>
             <th>Proje Adı</th>
             <th>Kısa Açıklaması</th>
             <th>Link</th>
@@ -72,7 +77,7 @@
         <input type="email" id="email" name =email>
         <label for="mesaj">Mesaj</label>
         <textarea name="mesaj" id="mesaj" rows="1"></textarea>
-        <input type="submit">
+        <button type="button" onclick="alert('Teşekkürler&#128512')">Gönder</button>
     </form>
     <br><br>
     Copyright &copy; 2023 My portfolio
